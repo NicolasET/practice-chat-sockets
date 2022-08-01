@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    display: flex;
+    background-color: #36393f;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    flex: 1 1 auto;
+}
+
+.join {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.join input {
+    border: 1px solid black;
+    border-radius: 0%;
+    margin-right: 10px;
+    outline: none;
+}
