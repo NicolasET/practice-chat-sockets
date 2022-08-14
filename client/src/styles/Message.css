@@ -1,25 +1,23 @@
-.container_message {
-    margin-top: 1.0625rem;
+.chat-wrapper {
+  padding: 5px 15px 15px 15px;
 }
 
-.message {
-    display: flex;
-    color: #ffffff;
-    word-wrap: break-word;
-    flex-direction: column;
+.container_message .username {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 1rem;
+  /* margin-top: 0; */
+  margin-bottom: 0;
 }
 
-.username {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    display: block;
-    position: relative;
-    line-height: 1.375rem;
-    min-height: 1.375rem;
-    color: #ffffff;
-    white-space: break-spaces;
-    font-size: 16px;
-    word-wrap: pre-wrap;
+.container_message .message {
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 1rem;
+}
+
+.span-time {
+  margin-left: 1rem;
+  font-size: small;
+  color: #878a8e;
 }
